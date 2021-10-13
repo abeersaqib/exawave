@@ -15,6 +15,17 @@ import HomeNavbar from './HomeNavbar'
 import Topbar from './Topbar'
 import CodeTopbar from './CodeTopbar'
 import HomePage from '../../pages/HomePage'
+import AboutPage from '../../pages/AboutPage'
+import BlogPage from '../../pages/BlogPage'
+import ContactPage from '../../pages/ContactPage'
+import DocsPage from '../../pages/DocsPage'
+import LoginPage from '../../pages/LoginPage'
+import MediaPage from '../../pages/MediaPage'
+import PrivacyPage from '../../pages/PrivacyPage'
+import StartPage from '../../pages/StartPage'
+import SupportPage from '../../pages/SupportPage'
+import TermsPage from '../../pages/TermsPage'
+import TutorialPage from '../../pages/TutorialPage'
 
 
 function Root() {
@@ -63,6 +74,52 @@ function Root() {
       <MatchRoute path="home">
         <HomeNavbar/>
       </MatchRoute>
+
+
+      <MatchRoute path="docs">
+      <HomeNavbar/>
+      </MatchRoute>
+      
+      <MatchRoute path="blog">
+      <HomeNavbar/>
+      </MatchRoute>
+      
+      <MatchRoute path="login">
+      <HomeNavbar/>
+      </MatchRoute>
+      
+      <MatchRoute path="start">
+      <HomeNavbar/>
+      </MatchRoute>
+      
+      <MatchRoute path="about">
+      <HomeNavbar/>
+      </MatchRoute>
+      
+      <MatchRoute path="support">
+      <HomeNavbar/>
+      </MatchRoute>
+
+      <MatchRoute path="contact">
+      <HomeNavbar/>
+      </MatchRoute>
+      
+      <MatchRoute path="tutorial">
+      <HomeNavbar/>
+      </MatchRoute>
+      
+      <MatchRoute path="media">
+      <HomeNavbar/>
+      </MatchRoute>
+      
+      <MatchRoute path="privacy">
+      <HomeNavbar/>
+      </MatchRoute>
+      
+      <MatchRoute path="terms">
+      <HomeNavbar/>
+      </MatchRoute>
+
     </Switch>
     
     <Switch>
@@ -129,6 +186,50 @@ function Root() {
             <HomePage/>
           </MatchRoute>
 
+          <MatchRoute path="docs">
+            <DocsPage/>
+          </MatchRoute>
+          
+          <MatchRoute path="blog">
+            <BlogPage/>
+          </MatchRoute>
+          
+          <MatchRoute path="login">
+            <LoginPage/>
+          </MatchRoute>
+          
+          <MatchRoute path="start">
+            <StartPage/>
+          </MatchRoute>
+          
+          <MatchRoute path="about">
+            <AboutPage/>
+          </MatchRoute>
+          
+          <MatchRoute path="support">
+            <SupportPage/>
+          </MatchRoute>
+
+          <MatchRoute path="contact">
+            <ContactPage/>
+          </MatchRoute>
+          
+          <MatchRoute path="tutorial">
+            <TutorialPage/>
+          </MatchRoute>
+          
+          <MatchRoute path="media">
+            <MediaPage/>
+          </MatchRoute>
+          
+          <MatchRoute path="privacy">
+            <PrivacyPage/>
+          </MatchRoute>
+          
+          <MatchRoute path="terms">
+            <TermsPage/>
+          </MatchRoute>
+          
         </Switch>
       </main>
     </div>
